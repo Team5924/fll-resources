@@ -1,31 +1,31 @@
 body {
-    background-color: #282928;
-    color: white;
+  background-color: #282928;
+  color: white;
 }
 
 h1 {
-    background-color: #343538;
-    color: white;
-    padding-top: 25px;
-    padding-bottom: 20px;
-    margin-top: 0;
-    text-align: center;
+  background-color: #343538;
+  color: white;
+  padding-top: 25px;
+  padding-bottom: 20px;
+  margin-top: 0;
+  text-align: center;
 }
 
 h2 {
-    background-color: #343538;
-    color: white;
-    padding-top: 10px;
-    padding-bottom: 15px;
-    padding-left: 15px;
+  background-color: #343538;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 15px;
+  padding-left: 15px;
 }
 
 h3 {
-    padding: 10px;
+  padding: 10px;
 }
 
 h4 {
-    padding: 10px;
+  padding: 10px;
 }
 
 h5 {}
@@ -33,27 +33,27 @@ h5 {}
 h6 {}
 
 p {
-    padding: 10px;
+  padding: 10px;
 }
 
 img {
-    max-width: 95vw;
+  max-width: 95vw;
 }
 
 a {
-    color: white;
-    text-decoration: underline;
+  color: white;
+  text-decoration: underline;
 }
 
 a:hover, a:visited, a:active, a:focus {
-    color: white;
-    text-decoration: none;
+  color: white;
+  text-decoration: none;
 }
 
 iframe {
-    padding: 10px;
+  padding: 10px;
 }
 
 .navbar-brand {
-    text-decoration: none;
+  text-decoration: none;
 }
