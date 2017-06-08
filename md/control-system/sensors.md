@@ -1,6 +1,9 @@
 # sensors
 
-sensors allow robots to understand their environment
+sensors allow robots to understand their environment. sensors are useful for making smart robots capable of autonomous operations
+
+### implementation
+see the programming section for implementing sensors
 
 ## color sensor
 
@@ -21,3 +24,4 @@ the gyro tells the robot about rotational motion and changes in orientation
 ## ultrasonic
 
 the ultrasonic sensor uses sound waves to measure distance. it can measure between 1cm and 250cm or 1in and 100in with +/- 1cm accuracy
+
