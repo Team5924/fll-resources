@@ -1,0 +1,8 @@
+{
+	"mddir": "./md/",
+	"outdir": "./html/",
+  "assetdir": "./",
+	"mdbasehtml": "./template/md.html",
+	"homebasehtml": "./template/home.html",
+	"cardbasehtml": "./template/card.html"
+}
