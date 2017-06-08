@@ -1,6 +1,6 @@
 {
 	"mddir": "./md/",
-	"outdir": "./html/",
+	"outdir": "./site/",
   "assetdir": "./",
   "defaultimg": "./default.jpg",
 	"mdbasehtml": "./template/md.html",
