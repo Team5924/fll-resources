@@ -53,3 +53,7 @@ a:hover, a:visited, a:active, a:focus {
 iframe {
     padding: 10px;
 }
+
+.navbar-brand {
+    text-decoration: none;
+}
