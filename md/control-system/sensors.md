@@ -7,7 +7,31 @@ see the programming section for implementing sensors
 
 ## color sensor
 
-the color sensor can differentiate between eight colors. it can detect light intensities.
+the color sensor can differentiate between eight colors. it can detect light intensities. for best results, the color sensor should be mounted at a right angle to the surface it's measuring.
+
+### modes
+
+the color sensor can be used in one of three different modes.
+
+#### color mode
+
+the sensor will recognize the seven following colors:
+
+* black
+* blue
+* green
+* yellow
+* red
+* white
+* brown
+
+#### reflected light intensity mode
+
+this mode measures the intensity of red light reflected on a surface. the scale starts with very dark at 0 and ends with very bright at 100. 
+
+#### ambient light intensity mode
+
+this mode measures light from the environment around the sensor. the same scale used in `reflected light intensity mode` is used for this mode.
 
 ## touch sensor
 
@@ -19,7 +43,7 @@ the ir sensor detects ir reflected off solid objects. it also detects signals fr
 
 ## gyro
 
-the gyro tells the robot about rotational motion and changes in orientation
+the gyro tells the robot about rotational motion and changes in orientation. the gyro works in the direction of the arrows on the top of the sensor.
 
 ## ultrasonic
 
