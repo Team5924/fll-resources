@@ -17,5 +17,3 @@ All teams attend one qualifying competition in November. The event lasts the ent
 ## season structure
 
 The season kickoff is August 30, when the challenge documents are released. That marks the start of the 8 week build season. Teams typically meet around twice a week for 1-2 hours per meeting, but teams can meet more or less frequently depending on the program. Some teams have one meeting for the robot component and one for the project, but other teams do both in the same meeting. Qualifiers are in November, and NorCal Championships are in January. Registration is open in the summer and will typically stay open through September, but registration will close when all of the qualifier spots are filled.
-
-* late August - kickoff. challenge is announced

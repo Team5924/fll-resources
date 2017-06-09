@@ -1,8 +1,8 @@
 # motors
 
-## large servo motor
+ev3 robots use two main motors: the large and medium servo motors
 
-the large motor runs at 160-170 rpm. 
+## large servo motor
 
 large motor features:
 
@@ -11,7 +11,7 @@ large motor features:
 * 40N.cm stall torque
 * built in sensor for one degree accuracy
 
-the large motor is ideal for applications like driving a robot.
+the large motor is ideal for applications like driving a robot. it's slower than the medium motor but much more powerful with roughly 3x the torque.
 
 ## medium servo motor
 
