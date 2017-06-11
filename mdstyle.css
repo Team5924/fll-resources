@@ -52,6 +52,8 @@ a:hover, a:visited, a:active, a:focus {
 
 iframe {
   padding: 10px;
+  max-width: 100%;
+  height: auto;
 }
 
 .navbar-brand {
