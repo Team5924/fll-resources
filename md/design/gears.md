@@ -19,3 +19,5 @@ spur gears are common and simple. the gears only mesh when their shafts are para
 ### worm gear
 
 one of the benefits of a worm gear is that its geeometry doesn't allow it to be backdriven
+
+![](https://upload.wikimedia.org/wikipedia/commons/c/c3/Worm_Gear.gif)
