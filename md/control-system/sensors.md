@@ -3,7 +3,7 @@
 sensors allow robots to understand their environment. sensors are useful for making smart robots capable of autonomous operations
 
 ### implementation
-see the programming section for implementing sensors
+see the [programming section](../programming/overview.md) for implementing sensors
 
 ## color sensor
 
