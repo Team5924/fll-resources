@@ -42,4 +42,4 @@ the brick is powered with six AA batteries. a single rechargeable battery unit i
 
 ## lego quick tips video
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Vt_OyrzK_yk" frameborder="0" allowfullscreen></iframe>
+<div class="youtube-player" data-id="Vt_OyrzK_yk"></div>

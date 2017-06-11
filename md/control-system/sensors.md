@@ -35,7 +35,7 @@ this mode measures light from the environment around the sensor. the same scale 
 
 ### lego quick tips video
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/bvQLrQdYX2U" frameborder="0" allowfullscreen></iframe>
+<div class="youtube-player" data-id="bvQLrQdYX2U"></div>
 
 ## touch sensor
 
@@ -47,7 +47,7 @@ the ir sensor **detects ir** reflected off solid objects. it also detects signal
 
 ### lego quick tips video
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/CFiP0cmURpw" frameborder="0" allowfullscreen></iframe>
+<div class="youtube-player" data-id="CFiP0cmURpw"></div>
 
 ## gyro
 
@@ -55,7 +55,7 @@ the gyro tells the robot about rotational motion and changes in orientation. the
 
 ### lego quick tips video
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/eRK3ZR0eq6E" frameborder="0" allowfullscreen></iframe>
+<div class="youtube-player" data-id="eRK3ZR0eq6E"></div>
 
 ## ultrasonic
 
@@ -63,4 +63,4 @@ the ultrasonic sensor uses **sound waves** to **measure distance**. it can measu
 
 ### lego quick tips video
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/jWvkVpfvq6w" frameborder="0" allowfullscreen></iframe>
+<div class="youtube-player" data-id="jWvkVpfvq6w"></div>

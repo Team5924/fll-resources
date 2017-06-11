@@ -15,8 +15,7 @@ the large motor is ideal for applications like driving a robot. it's slower than
 
 ### lego quick tips video 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/PQhI_SCosXU" frameborder="0" allowfullscreen></iframe>
-
+<div class="youtube-player" data-id="PQhI_SCosXU"></div>
 
 ## medium servo motor
 
@@ -31,4 +30,4 @@ the medium motor is ideal for applications when loads are low and high rpm is ne
 
 ### lego quick tips video 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/hWF8Qh10qVM" frameborder="0" allowfullscreen></iframe>
+<div class="youtube-player" data-id="hWF8Qh10qVM"></div>

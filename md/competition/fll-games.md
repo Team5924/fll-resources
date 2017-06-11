@@ -34,14 +34,14 @@ each year brings a new challenge
 
 ## 2014 - World Class - Learning Unleashed
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/po9j6vpuW7A" frameborder="0" allowfullscreen></iframe>
+<div class="youtube-player" data-id="po9j6vpuW7A"></div>
 
 ## 2015 - Trash Trek
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/akuN95EyXJk" frameborder="0" allowfullscreen></iframe>
+<div class="youtube-player" data-id="akuN95EyXJk"></div>
 
 ## 2016 - Animal Allies
 
 ### [resources](https://www.firstinspires.org/resource-library/fll/animal-allies-challenge-updates-and-resources)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Zj4IpvcHOrU" frameborder="0" allowfullscreen></iframe>
+<div class="youtube-player" data-id="Zj4IpvcHOrU"></div>
