@@ -37,6 +37,6 @@ a, a:hover, a:visited, a:active, a:focus {
   z-index: 1029;
 }
 
-.col-lg-3, col-md-6 {
+.col-lg-3, .col-md-6, .col-sm-6, .col-xs-12 {
   padding: 0;
 }
