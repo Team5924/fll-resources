@@ -7,7 +7,7 @@ see the programming section for implementing sensors
 
 ## color sensor
 
-the color sensor can differentiate between eight colors. it can detect light intensities. for best results, the color sensor should be mounted at a right angle to the surface it's measuring.
+the color sensor can differentiate between **eight colors**. it can detect light intensities. for best results, the color sensor should be mounted at a right angle to the surface it's measuring.
 
 ### modes
 
@@ -33,19 +33,34 @@ this mode measures the intensity of red light reflected on a surface. the scale 
 
 this mode measures light from the environment around the sensor. the same scale used in `reflected light intensity mode` is used for this mode.
 
+### lego quick tips video
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/bvQLrQdYX2U" frameborder="0" allowfullscreen></iframe>
+
 ## touch sensor
 
 the touch sensor is simply a button that tells the robot if it's pressed or not
 
 ## ir sensor
 
-the ir sensor detects ir reflected off solid objects. it also detects signals from the remote infrared beacon
+the ir sensor **detects ir** reflected off solid objects. it also detects signals from the remote infrared beacon
+
+### lego quick tips video
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/CFiP0cmURpw" frameborder="0" allowfullscreen></iframe>
 
 ## gyro
 
 the gyro tells the robot about rotational motion and changes in orientation. the gyro works in the direction of the arrows on the top of the sensor.
 
+### lego quick tips video
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/eRK3ZR0eq6E" frameborder="0" allowfullscreen></iframe>
+
 ## ultrasonic
 
-the ultrasonic sensor uses sound waves to measure distance. it can measure between 1cm and 250cm or 1in and 100in with +/- 1cm accuracy
+the ultrasonic sensor uses **sound waves** to **measure distance**. it can measure between 1cm and 250cm or 1in and 100in with +/- 1cm accuracy
 
+### lego quick tips video
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/jWvkVpfvq6w" frameborder="0" allowfullscreen></iframe>
