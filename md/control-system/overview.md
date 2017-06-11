@@ -23,5 +23,5 @@ the ev3 can use the following sensors
 
 ### actuators
 
-* large motor
-* medium motor
+* large servo motor
+* medium servo motor
