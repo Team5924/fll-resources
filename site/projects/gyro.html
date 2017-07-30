@@ -1,0 +1,78 @@
+<!doctype html>
+<html>
+<head>
+  <title>team 5924 fll | gyro</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous"/>
+  <link rel="stylesheet" href="../../responsiveyoutube.css"/>
+  <link rel="stylesheet" href="../../mdstyle.css">
+
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+</head>
+<body>
+
+<nav class="navbar navbar-inverse sticky-top bg-inverse">
+  <a class="navbar-brand" href="..">
+    <img src="../../logo.png" width="30" height="30" class="d-inline-block align-top" alt="">
+    team 5924 fll
+  </a>
+</nav>
+
+<div>
+
+<h1>gyro sensor</h1>
+<p><img src="https://sh-s7-live-s.legocdn.com/is/image//LEGO/45505_alt1?$main$" alt=""></p>
+<h2>goal</h2>
+<p>this project covers how to use a proportional controller in conjuction with a gyro sensor to do controlled rotations to arbitrary angles</p>
+<h2>setting up the robot</h2>
+<p>a simple tank drive robot will be needed for this project. the robot will also need a gyro sensor mounted in the proper orientation</p>
+<h3>mounting the gyro</h3>
+<p>because the gyro has only one DoF, it must be mounted in a deliberate way. the plane of the arrows on the top of the sensor should be parallel to the plane of motion we want to measure (parallel to the ground in this case)</p>
+<h2>programming</h2>
+<h3>abstract</h3>
+<p>we will use a proportional controller for this project. this means we'll slow down as we get closer to our target angle.</p>
+<p>the function is: <code>output=error*kP</code></p>
+<p>our error in this case is <code>starting angle</code> subtracted from <code>desired angle</code></p>
+<p>kP is the proportional constant. once we have the software working, we'll need to tune this constant</p>
+<p>output is the commanded motor power level</p>
+<h4>deadband</h4>
+<p>a deadband is the allowable error for our control loop. deadband helps our robot converge more quickly on the goal.</p>
+<p>deadband should be balanced with speed, which in this context means how quickly our robot converges on the target angle.</p>
+<p>if speed is favored and we don't need to be very precise, we can significantly increase the proportional constant and set a large deadband.</p>
+<p><img src="angle-deadband.jpg" alt="deadband"></p>
+<p>the picture above illustrates a <code>deadband of +/- 4deg</code> for a <code>goal of 90deg</code></p>
+<p><code>0deg</code> is the starting angle</p>
+<p>the +/- 4deg deadband means the robot will stop anywhere in between 94deg and 86deg (the area highlighted in green.</p>
+<p><strong>note</strong>: the deadband doesn't have to be symmetric. for example, you could have a deadband of +1deg and -6deg.</p>
+<p><img src="asymmetric-angle-deadband.jpg" alt="asymmetric deadband"></p>
+<h4>english</h4>
+<ul>
+<li>read the current output angle</li>
+<li>calculate the error</li>
+<li>check if the error is within the range of the deadband</li>
+<li>if it is: stop. if not, output the error multiplied by the proportional constant to the motors</li>
+</ul>
+<h3>dragons</h3>
+<p>winter is coming</p>
+<h4>tips</h4>
+<ul>
+<li>ensure the gyro is in angle mode </li>
+</ul>
+<h2>notes</h2>
+<p>sometimes the gyro will drift a lot and continually increment with no motion. if this happens, unplug the sensor from the brick while the brick is on and plug it back in.</p>
+<p>it is best when using the gyro to leave the robot still while it starts up</p>
+<p>the gyro block must be downloaded from the ev3 downloads page</p>
+<h2>extra resources</h2>
+<p><a href="https://www.youtube.com/watch?v=2vbNTyLkhHY">https://www.youtube.com/watch?v=2vbNTyLkhHY</a></p>
+<p><a href="https://www.youtube.com/watch?v=7V16AEW3GG4">https://www.youtube.com/watch?v=7V16AEW3GG4</a></p>
+<h3><a href="https://lc-www-live-s.legocdn.com/r/www/r/mindstorms/-/media/franchises/mindstorms%202014/downloads/firmware%20and%20software/gyro.ev3b?l.r2=-2108761645">gyro block download</a></h3>
+
+
+</div>
+
+<script type="text/javascript" src="../../responsiveyoutube.js"></script>
+<script type="text/javascript" src="../../script.js"></script>
+
+</body>
+</html>
